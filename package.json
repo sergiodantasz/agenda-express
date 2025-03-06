@@ -4,7 +4,8 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node ./server.js"
+    "start": "node ./server.js",
+    "lint": "biome check --fix --unsafe"
   },
   "author": "Sérgio Dantas",
   "license": "MIT",
@@ -14,6 +15,7 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "nodemon": "^3.1.9"
   }
 }
