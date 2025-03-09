@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["*.css", "*.json", "*.ejs"]
+    "ignore": ["*.css", "*.json"]
   },
   "formatter": {
     "enabled": true,
